@@ -9,7 +9,7 @@ The command to install wsl is shown bellow. It installs Ubuntu by default.
 The command should be entered in windows command prompt.
 
 **All the commads are entered in Windows WSL Feature from this point forward**
-After you have a wsl version running you need to install Ollama.
+After you have a wsl version running you need to install the linux version of Ollama. Ollama's website is "https://ollama.com/" 
 
   "curl -fsSL https://ollama.com/install.sh | sh"
   
