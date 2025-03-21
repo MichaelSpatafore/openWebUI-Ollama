@@ -1,4 +1,4 @@
-To create a WSL
+To create a WSL on powershell
   "wsl --install"
   
 Ollama download command
