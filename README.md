@@ -9,13 +9,12 @@ The command to install wsl is shown bellow. It installs Ubuntu by default.
 The command should be entered in windows command prompt.
 
 **All the commads are entered in Windows WSL Feature from this point forward**
-After you have a wsl version running you need to install the linux version of Ollama. Ollama's website is "https://ollama.com/" 
+After you have a wsl version running you need to install the linux version of Ollama. You also need to download an AI that you will be using such as llama3.3 in the given example. Ollama's website is "https://ollama.com/"
 
   "curl -fsSL https://ollama.com/install.sh | sh"
   
-To install ollama AI models you need to enter the command followed by the AI model name.
-For example,
-  "ollam pull llama3.3".
+   "ollam pull llama3.3"
+   
 This is a website that lists their current models -> https://ollama.com/search
 
 The next steps are to download Open WebUI
