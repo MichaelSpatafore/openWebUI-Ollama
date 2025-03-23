@@ -21,7 +21,7 @@ The next steps are to download Open WebUI
 In order to run Open WebUI you need to run a docker container
 To install docker enter the following commands
 
-  "$ curl -fsSL https://get.docker.com/ | sh"
+  follow https://docs.docker.com/engine/install/ubuntu/
 
 
 Now that docker is installed, you can install Open WebUI
