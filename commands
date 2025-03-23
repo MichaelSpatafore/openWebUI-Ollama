@@ -6,7 +6,8 @@ Ollama download command
   "curl -fsSL https://ollama.com/install.sh | sh"
 
 Docker download command
-  "$ curl -fsSL https://get.docker.com/ | sh"
+  "$ curl -fsSL https://get.docker.com/ | sh" or go to this website
+  https://docs.docker.com/engine/install/ubuntu/
 
 Open WebUI commands
   "sudo docker pull ghcr.io/open-webui/open-webui:main"
