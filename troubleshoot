@@ -1,4 +1,3 @@
 if the second docker command does not work try this
   "sudo docker rm -f open-webui"
-  "sudo docker run -d --network=host -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=http://127.0.0.1:11434 --name open-webui --restart always ghcr.io/open-webui/open-webui:main
-65ef118fcab46201ea913688be549ff7f6fc3f91476e79e3b80b8f67c0d7291c"
+  "sudo docker run -d --network=host -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=http://127.0.0.1:11434 --name open-webui --restart always ghcr.io/open-webui/open-webui:main"
