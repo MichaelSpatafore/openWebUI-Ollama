@@ -1,6 +1,7 @@
 To create a WSL on powershell
   "wsl --install"
-  
+
+**THE REST IS ON WSL**
 Ollama download command
   "curl -fsSL https://ollama.com/install.sh | sh"
 
@@ -12,3 +13,5 @@ Open WebUI commands
   "sudo docker run -d --network=host -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=http://127.0.0.1:11434 --name open-webui --restart always ghcr.io/open-webui/open-webui:main"
 
 To access your creation go to "localhost:8080" then make your admin account
+If you do not see an AI model you need to download one with the command "ollam pull" followed by the desired ai model such as
+  "ollama pull codellama:13b"
